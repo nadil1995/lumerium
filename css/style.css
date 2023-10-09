@@ -693,3 +693,18 @@ option#GB {
     height: 20px;
     background-size: cover;
 }
+select#language-select {
+    border: #0b3b77;
+    border-radius: 20px;
+    color: #0b3b77;
+    padding: 2%;
+    margin: 1% 0;
+}
+@media only screen and (max-width: 480px) {
+    .priceIMG > img {
+        width: 20rem;
+    }
+    .centered{
+        font-size: large;
+    }
+}
