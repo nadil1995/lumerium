@@ -542,7 +542,7 @@ p#Ab_lu {
     font-size: xx-large;
 }
 div#about-lu {
-    background-image: radial-gradient( #3fdfff,#1363c6)
+    background: linear-gradient(90deg, #5de0e6, #004aad);
 }
 h1#Hd_lu , p#Ab_lu {
     color: #000;
@@ -580,6 +580,8 @@ img.brandag {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: x-large;
+    width: 60vw;
+
   }
 
   .col-lg-12.wow.fadeIn.bgimgouter {
@@ -628,4 +630,66 @@ img.brandag {
 .slider .slide {
     height: 100px;
     width: 250px;
+}
+
+div#Ab_lu {
+    font-size: x-large;
+    color: #000;
+    font-weight: bold;
+}
+
+div#stratup-sec {
+    color: white;
+    font-size: large;
+    font-weight: 900;
+}
+h1#Hd_sk {
+    color: white;
+}
+
+p#strng1, p#strng2{
+    font-weight: bold;
+}
+#logo-grid {
+    align-content: space-around;
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    max-width: 750px;
+  }
+  .partner-logo {
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    padding: 2%;
+}
+.partner-logo img {
+    display: block;
+    max-width: 187px;
+    width: auto;
+    height: 100%;
+}
+
+  .col-2 img {
+    max-width: 375px;
+  }
+  div#about-Cr {
+    /* background: linear-gradient(45deg, #1363c6, #0b3b77); */
+    background: radial-gradient(circle at 10% 10%, #33a4bb, #0b3b77);
+}
+
+div#about-fu {
+    background: radial-gradient(#33a4bb, #0b3b77);
+}
+
+option#GB {
+    background-image: url(img/spain_321260.png);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
 }
