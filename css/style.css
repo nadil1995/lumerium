@@ -721,7 +721,7 @@ select#language-select {
         display: block;
         max-width: 80px;
         width: 80px;
-        height: 100%;
+        height: auto;
     }
 }
 
