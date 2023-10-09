@@ -707,4 +707,18 @@ select#language-select {
     .centered{
         font-size: large;
     }
+    .partner-logo {
+        box-sizing: border-box;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        width: 200px;
+        padding: 2%;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+}
+
+div#\34 img {
+    background-image: url(img/4.svg) ;
 }
