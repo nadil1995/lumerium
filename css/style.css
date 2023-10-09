@@ -740,3 +740,8 @@ div#Ab_lu {
     height: 50vh;
     overflow: auto;
 }
+
+img.imgaeonbg {
+    height: 20rem;
+    width: auto;
+}
