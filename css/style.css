@@ -717,6 +717,12 @@ select#language-select {
         flex-wrap: wrap;
         align-items: flex-start;
     }
+    .partner-logo img {
+        display: block;
+        max-width: 80px;
+        width: auto;
+        height: 100%;
+    }
 }
 
 div#\34 img {
