@@ -5,8 +5,13 @@
     --light: #F4F7FE;
     --dark: #14183E;
 }
+@font-face { font-family: gracial-reg; src: url('../lib/GlacialIndifference-Regular.ttf'); } 
+@font-face { font-family: gracial-bold; src: url('../lib/GlacialIndifference-Bold.ttf'); } 
+ 
 
-
+    *{
+        font-family: gracial-reg;
+    }
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -547,6 +552,12 @@ div#about-lu {
 h1#Hd_lu , p#Ab_lu {
     color: #000;
 }
+h1#Hd_lu, h1#Hd_sk, p#strng1 ,p#strng2{
+    font-family: gracial-bold !important;
+}
+strong {
+    font-family: gracial-bold  !important;
+}
 
 div#stratup-sec {
     text-align: center;
@@ -723,6 +734,10 @@ select#language-select {
         width: 80px;
         height: auto;
     }
+    .shedules {
+        height: 10rem;
+        overflow: overlay;
+    }
 }
 
 div#\34 img {
@@ -734,7 +749,7 @@ img.she1 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 div#Ab_lu {
     height: 50vh;
@@ -744,4 +759,31 @@ div#Ab_lu {
 img.imgaeonbg {
     height: 20rem;
     width: auto;
+    opacity: 16%;
+}
+.shedules {
+    height: 33rem;
+    overflow: overlay;
+}
+
+.latm > img {
+    width: 50%;
+}
+
+.important{
+    display: flex;
+    justify-content: space-around;
+   
+}
+div#chanllenge {
+    background-image: radial-gradient(#5de0e6, #004aad);
+    display: flex;
+    text-align: center;
+}
+.col-lg-12.wow.fadeIn.important > .col-lg-3 > img {
+    width: 145px;
+    height: 156px;
+}
+img.lumi {
+    width: 200px;
 }

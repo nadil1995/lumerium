@@ -29,8 +29,11 @@
     --bs-font-monospace:  SFMono-Regular,  Menlo,  Monaco,  Consolas,  "Liberation Mono",  "Courier New",  monospace;
     --bs-gradient:  linear-gradient(180deg,  rgba(255,  255,  255,  0.15),  rgba(255,  255,  255,  0));
 }
+@font-face { font-family: gracial-reg; src: url('../lib/GlacialIndifference-Regular.ttf'); } 
+@font-face { font-family: gracial-bold; src: url('../lib/GlacialIndifference-Bold.ttf'); }
 *, *::before, *::after {
     box-sizing: border-box;
+    font-family: gracial-reg !important;
 }
 @media(prefers-reduced-motion: no-preference) {
     :root {
@@ -6026,6 +6029,7 @@ textarea.form-control-lg {
 }
 .text-white {
     color: #143B5A !important;
+    font-family: gracial-bold !important;
 }
 .text-body {
     color: #555 !important;
