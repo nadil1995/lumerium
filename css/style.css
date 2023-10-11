@@ -578,7 +578,8 @@ p#Ab_st{
     justify-content: space-around;
 }
 img.brandag {
-    width: 40vw;
+    width: 35vw;
+    border-radius: 50%;
 }
 .bgImg {
     position: relative;
@@ -644,7 +645,7 @@ img.brandag {
 }
 
 div#Ab_lu {
-    font-size: x-large;
+    font-size: large;
     color: #000;
     font-weight: bold;
 }
@@ -738,6 +739,17 @@ select#language-select {
         height: 10rem;
         overflow: overlay;
     }
+    .col-lg-12.wow.fadeIn.important > .col-lg-3 > img {
+        width: 20vw;
+        height: 15vh !important;
+    }
+    .loc > img {
+        width: 50vw !important;
+    }
+    .shedules {
+        height: 13rem !important;
+        overflow: overlay;
+    }
 }
 
 div#\34 img {
@@ -757,7 +769,7 @@ div#Ab_lu {
 }
 
 img.imgaeonbg {
-    height: 20rem;
+    height: 17rem;
     width: auto;
     opacity: 16%;
 }
@@ -781,9 +793,24 @@ div#chanllenge {
     text-align: center;
 }
 .col-lg-12.wow.fadeIn.important > .col-lg-3 > img {
-    width: 145px;
+
     height: 156px;
 }
 img.lumi {
     width: 200px;
+}
+.col-lg-12.Rights {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.loc > img {
+    width: 20vw;
+}
+img.xxy {
+    height: 181px;
+}
+.col-lg-12.Rights {
+    text-align: center;
+    color: white;
 }
