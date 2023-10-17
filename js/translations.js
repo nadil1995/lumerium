@@ -80,7 +80,7 @@ const languageSelect = document.getElementById('language-select');
 
 languageSelect.addEventListener('change', function() {
   if (languageSelect.value === 'sp') {
-    greeting.textContent = 'Sobre Luminario';
+    greeting.textContent = 'Sobre Luminarium';
   } else if (languageSelect.value === 'en') {
     greeting.textContent = 'About Luminarium';
   }

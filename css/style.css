@@ -683,7 +683,7 @@ p#strng1, p#strng2{
 .partner-logo img {
     display: block;
     max-width: 187px;
-    width: auto;
+    width: 135px;
     height: 100%;
 }
 
@@ -813,4 +813,9 @@ img.xxy {
 .col-lg-12.Rights {
     text-align: center;
     color: white;
+}
+
+.btnBogata {
+    display: flex;
+    justify-content: center;
 }

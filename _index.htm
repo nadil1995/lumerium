@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your website is ready to use</title>
+  <link rel="stylesheet" href="https://static.fasthosts.co.uk/fonts/fasthosts.css" />
+  <style>
+    :root {
+      --color-secondary: #031a4a;
+      --color-primary: #1e90ff;
+      --color-grey: #f5f5f5;
+      --color-white: #ffffff;
+      --container-width: 128rem;
+      --font-light: "AntennaCond-Light",arial,helvetica,sans-serif;
+      --font-medium: "AntennaCond-Medium",arial,helvetica,sans-serif;
+      /* 62.5% of 16px base font size is 10px */
+      font-size: 62.5%;
+      font-family: var(--font-light);
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    .mainNav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: var(--color-secondary);
+      z-index: 1000;
+    }
+    
+    .mainNav-container {
+      height: 7rem;
+      max-width: 165.3rem;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      padding: 0 1.5rem;
+      position: relative;
+    }
+    
+    .mainNav-logo {
+      max-width: 13.6rem;
+      width: 100%;
+      margin-right: 1.5rem;
+      z-index: 0;
+    }
+    
+    .upload-container {
+      padding: 6.23rem 2rem;
+      width: calc(100% - 2rem);
+      max-width: var(--container-width);
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 14rem;
+    }
+    
+    .upload-container__header h1, p {
+      color: var(--color-secondary);
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    
+    .upload-container__header h1 {
+      font-family: var(--font-medium);
+      font-size: 3.5rem;
+    }
+    
+    .upload-container__header p {
+      font-size: 2.1rem;
+      text-align: center;
+    }
+    
+    .upload-container__body {
+      margin-top: 4.85rem;
+      width: 100%;
+      display: grid;
+      gap: 3.7rem;
+      grid-template-columns: 1fr;
+    }
+    
+    .upload-image__container {
+      position: relative;
+      max-width: 45.2rem;
+      max-height: 37.6rem;
+      margin: 0 auto;
+    }
+    
+    .upload-container__body .upload-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    
+    .upload-content {
+      padding: 2rem;
+    }
+    
+    .upload-content .upload-content__upload-description h2, p {
+      color: var(--color-secondary);
+      text-align: left;
+    }
+    
+    .upload-content .upload-content__upload-description h2 {
+      font-family: var(--font-medium);
+      font-size: 2.5rem;
+      line-height: 4.5rem;
+      margin-bottom: 1rem;
+      font-weight: lighter;
+      letter-spacing: 0;
+      text-align: center;
+    }
+    
+    .upload-content .upload-content__upload-description p {
+      font-size: 1.8rem;
+      line-height: 3rem;
+    }
+    
+    .upload-content .upload-content__upload-notice {
+      text-align: left;
+    }
+    
+    .upload-content .upload-content__upload-notice strong {
+      font-size: 2rem;
+      line-height: 3.3rem;
+      color: #1473e6;
+      font-style: normal;
+      font-weight: normal;
+    }
+    
+    @media (min-width: 576px) {
+      .upload-container__header h1 {
+        font-size: 4.5rem;
+      }
+    }
+    
+    @media (min-width: 768px) {
+      .upload-container {
+        padding: 6.23rem 3rem;
+      }
+      
+      .upload-container__body {
+        grid-template-columns: 1fr 1fr;
+      }
+      
+      .upload-content .upload-content__upload-description h2 {
+        text-align: left;
+      }
+    }
+    
+    @media (min-width: 992px) {
+      .upload-container__header h1 {
+        font-size: 4.5rem;
+      }
+      
+      .upload-content {
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      
+      .upload-content .upload-content__upload-description h2 {
+        font-size: 3.2rem;
+      }
+    }
+    
+    @media (min-width: 1200px) {
+      .upload-container {
+        padding-inline: 9.7rem;
+      }
+      
+      .upload-container__body {
+        gap: 7.7rem;
+      }
+      
+      .upload-content {
+        padding: 5.58rem 6.6rem 4rem 6.6rem;
+      }
+      
+      .upload-content .upload-content__upload-notice strong {
+        font-size: 2.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="mainNav">
+      <div class="mainNav-container">
+        <a href="https://www.fasthosts.co.uk/?utm_source=web_hosting_landing&utm_medium=referral&utm_campaign=fh_web_hosting_landing_navbar" class="mainNav-logo" rel="nofollow">
+          <img src="https://static.fasthosts.co.uk/images/logos/fasthosts-white.svg" alt="Fasthosts" />
+        </a>
+      </div>
+    </nav>
+  </header>
+  
+  <div class="upload-container">
+    <div class="upload-container__header">
+      <h1>Great news – your Web Hosting package is ready to use!</h1>
+      
+      <p>
+        You’re all set up to get building. All you need to do now is flex your dev fingers, get
+        coding and upload your website files.
+      </p>
+    </div>
+    
+    <div class="upload-container__body">
+      <div class="upload-image">
+        <div class="upload-image__container">
+          <img src="https://static.fasthosts.co.uk/images/illustrations/web-hosting-landing/htdocs.svg" alt="" />
+        </div>
+      </div>
+      
+      <div class="upload-content">
+        <div class="upload-content__upload-description">
+          <h2>Upload your files using FTP</h2>
+          
+          <p>
+            You can use your preferred FTP software to upload your files using the server
+            details in your Control Panel.
+          </p>
+        </div>
+        
+        <div class="upload-content__upload-notice">
+          <strong>Important: Make sure you upload your files to the htdocs directory</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
