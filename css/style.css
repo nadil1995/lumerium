@@ -819,3 +819,7 @@ img.xxy {
     display: flex;
     justify-content: center;
 }
+
+img.luminarium {
+    width: 12rem;
+}
