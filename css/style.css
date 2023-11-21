@@ -150,7 +150,7 @@ h6,
 
 /*** Hero Header ***/
 .hero-header {
-    margin-top: -75px;
+    /* margin-top: -75px; */
     /* background: url(../img/bg-hero.png) center center no-repeat; */
     background-size: cover;
 }
@@ -822,4 +822,91 @@ img.xxy {
 
 img.luminarium {
     width: 12rem;
+}
+
+/* Common styles for logos */
+.logo , .logo-sponcer {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Desktop layout */
+@media (min-width: 1024px) {
+    .logo-container {
+        text-align: center; /* Center the logos */
+    }
+
+    .sponcers >.logo-container.main  > img{
+        scale: 1.3;
+    }
+
+}
+
+/* Mobile and tablet layout */
+@media (max-width: 768px) {
+    .logo-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
+        gap: 10px;
+        justify-content: center; /* Center the grid horizontally */
+    }
+    .sponcers >.logo-container.main  > img{
+        scale: 0.8;
+    }
+}
+
+.logo >img {
+    width: 75px !important;
+}
+.logo-sponcer >img {
+    width: auto !important;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.sponcer-title {
+    display: flex;
+    justify-content: center;
+}
+.container-fluid.sticky-top {
+    background-image: radial-gradient(#15ace1, #5de0e6);
+}
+
+.sponcers >.logo-container.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sponcer-title > .logo-sponcer > img {
+    width: 100px !important;
+    height: auto;
+}
+
+img.headeranimation {
+    width: 100vw;
+}
+
+.horizontal:after{
+    content: "";
+    display: flex;
+    clear: both;
+}
+.vertical{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.vertical img{
+    margin-top: 12px;
+    width: 100%;
+cursor: pointer;
+}
+img:hover{
+box-shadow:4px 4px 4px #111;
+}
+@media(max-width: 720px){
+    .vertical{
+    width: 50%;
+    }
 }
